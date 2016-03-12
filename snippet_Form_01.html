@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+<!--
+        <link rel="stylesheet" type="text/css" href="vendors/css/Reset.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+-->
+        
+        <title>Basic HTML Start Page</title>
+        
+            <style>
+/*  ************** Global styles on top *************  */
+                
+/*
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+*/
+                
+/*  ************** /reset **************  */
+                
+                .wrapper {
+                    margin: 0 auto;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                }
+/*  ************** Begin styles **************  */
+                
+                .purple {
+                color: blueviolet;
+                }
+                
+            </style>
+        
+    </head>
+    
+    
+    <body>
+        
+<!--   ------------ Simple starter form for basic contact details (consider swapping p tags for divs since in forms, these aren't paragraphs but divisions ------------   -->
+        <div class="wrapper">
+            <h2>H2 Title</h2>
+            <p>Some text in a paragraph tag that relates to the form.</p>
+            <form id="main1" name="main1" action="" method="post">
+            <fieldset>
+            <legend>Your contact Details:</legend>
+                <p><label for="author">Name:</label>
+                <input name="author" id="author" type="text" />
+                </p>
+                <p><label for="email">Email Address:</label>
+                <input name="email" id="email" type="text" />
+                </p>
+                <p>
+                <label for="url">Web Address:</label>
+                <input name="url" id="url" type="text" />
+                </p>
+                
+            </fieldset>
+                </form>
+        </div> <!-- /.wrapper -->
+        
+        
+        
+            <script>
+//   /////////////////  Javascript here  //////////////////
+
+            </script>
+            
+    </body>
+</html>
